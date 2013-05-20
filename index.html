@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+  <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+  <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <html lang="{block:English}en{/block:English}{block:French}fr{/block:French}{block:German}de{/block:German}{block:Japanese}ja{/block:Japanese}{block:Italian}it{/block:Italian}{block:Spanish}es{/block:Spanish}{block:Polish}pl{/block:Polish}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>
+      {Title}
+      {block:IndexPage}&mdash; {PlaintextDescription}{/block:IndexPage}
+      {block:PermalinkPage}{block:PostSummary}&mdash; {PlaintextPostSummary}{/block:PostSummary}{block:PermalinkPage}
+      {block:SearchPage}&mdash; {lang:Search results for SearchQuery}{/block:SearchPage}
+    </title>
+    {block:Description}
+    <meta name="description" content="{MetaDescription}">
+    {/block:Description}
+    {block:PermalinkPage}
+    {block:Posts}
+    {block:Date}
+    <link rel="canonical" href="{Permalink}">
+    <link rel="shortlink" href="{ShortURL}">
+    {/block:Date}
+    {/block:Posts}
+    {/block:PermalinkPage}
+    <!-- Fav Icons -->
+    <link rel="shortcut icon" href="{Favicon}">
+    <link rel="apple-touch-icon" href="{PortraitURL-128}">
+    <!-- RSS Feed -->
+    <link rel="alternate" type="application/rss+xml" href="{RSS}">
+    <!-- Feed / Social Usernames -->
+    <meta name="text:Google Analytics ID" content=""/>
+    <meta name="text:Twitter Username" content=""/>
+    <!-- Theme Options -->
+    <meta name="if:Enable Twitter Feed" content="0" />
+    <!-- Theme CSS -->
+    <style>
+    /* ==========================================================================
+       CSS Normalize (normalize.css v2.1.2 | MIT License | git.io/normalize)
+       ========================================================================== */
+      article,
+      aside,
+      details,
+      figcaption,
+      figure,
+      footer,
+      header,
+      hgroup,
+      main,
+      nav,
+      section,
+      summary {
+        display: block;
+      }
+      audio,
+      canvas,
+      video {
+        display: inline-block;
+      }
+      audio:not([controls]) {
+        display: none;
+        height: 0;
+      }
+      [hidden] {
+        display: none;
+      }
+      html {
+        font-family: sans-serif; /* 1 */
+        -ms-text-size-adjust: 100%; /* 2 */
+        -webkit-text-size-adjust: 100%; /* 2 */
+      }
+      body {
+        margin: 0;
+      }
+      a:focus {
+        outline: thin dotted;
+      }
+      a:active,
+      a:hover {
+        outline: 0;
+      }
+      h1 {
+        font-size: 2em;
+        margin: 0.67em 0;
+      }
+      abbr[title] {
+        border-bottom: 1px dotted;
+      }
+      b,
+      strong {
+        font-weight: bold;
+      }
+      dfn {
+        font-style: italic;
+      }
+      hr {
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        height: 0;
+      }
+      mark {
+        background: #ff0;
+        color: #000;
+      }
+      code,
+      kbd,
+      pre,
+      samp {
+        font-family: monospace, serif;
+        font-size: 1em;
+      }
+      pre {
+        white-space: pre-wrap;
+      }
+      q {
+        quotes: "\201C" "\201D" "\2018" "\2019";
+      }
+      small {
+        font-size: 80%;
+      }
+      sub,
+      sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
+      }
+      sup {
+        top: -0.5em;
+      }
+      sub {
+        bottom: -0.25em;
+      }
+      img {
+        border: 0;
+      }
+      svg:not(:root) {
+        overflow: hidden;
+      }
+      figure {
+        margin: 0;
+      }
+
+      fieldset {
+        border: 1px solid #c0c0c0;
+        margin: 0 2px;
+        padding: 0.35em 0.625em 0.75em;
+      }
+      legend {
+        border: 0;
+        padding: 0;
+      }
+      button,
+      input,
+      select,
+      textarea {
+        font-family: inherit;
+        font-size: 100%;
+        margin: 0;
+      }
+      button,
+      input {
+        line-height: normal;
+      }
+      button,
+      select {
+        text-transform: none;
+      }
+      button,
+      html input[type="button"],
+      input[type="reset"],
+      input[type="submit"] {
+        -webkit-appearance: button;
+        cursor: pointer;
+      }
+      button[disabled],
+      html input[disabled] {
+        cursor: default;
+      }
+      input[type="checkbox"],
+      input[type="radio"] {
+        box-sizing: border-box;
+        padding: 0;
+      }
+      input[type="search"] {
+        -webkit-appearance: textfield;
+        -moz-box-sizing: content-box;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;
+      }
+      input[type="search"]::-webkit-search-cancel-button,
+      input[type="search"]::-webkit-search-decoration {
+        -webkit-appearance: none;
+      }
+      button::-moz-focus-inner,
+      input::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+      }
+      textarea {
+        overflow: auto;
+        vertical-align: top;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+    /* ==========================================================================
+       Base Styles
+       ========================================================================== */
+       body {
+
+       }
+    /* ==========================================================================
+       Media Queries
+       ========================================================================== */
+        @-ms-viewport { width: device-width; }
+        @-o-viewport { width: device-width; }
+        @viewport { width: device-width; }
+        @media screen and (min-width:0px) {
+
+        }
+    </style>
+    <!-- Custom CSS -->
+    <style>
+    {CustomCSS}
+    </style>
+  </head>
+  <body>
+  </body>
+  {block:IfEnableTwitterFeed}
+  <script type="text/javascript">
+    function recent_tweets(data) {
+      for (i=0; i<data.length; i++) {
+        document.getElementById("tweets").innerHTML =
+        document.getElementById("tweets").innerHTML +
+        '<a href="http://twitter.com/{TwitterUsername}/status/' +
+        (data[i].id_str ? data[i].id_str : data[i].id) +
+        '"><div class="content">' + data[i].text +
+        '</div></a>';
+      }
+      document.getElementById("twitter").style.display = 'block';
+    }
+  </script>
+  {/block:IfEnableTwitterFeed}
+  {block:IfGoogleAnalyticsID}
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '{GoogleAnalyticsID}']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  {/block:IfGoogleAnalyticsID}
+</html>
