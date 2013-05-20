@@ -4,7 +4,7 @@ A really sparse starting point for **Tumblr theme development**. The code and gu
 #### Template Guidelines
 Always try and keep theme `blocks`, `variables` and `strings`, as close to Tumblr's own guidelines as possible.
 
-Add comments wherever possible but be sensible with it. Don't include comments inside `blocks` as the comment will appear several times in the rendered HTML.
+Add comments when needed, but be sensible. Don't include comments inside `blocks` as the comment will appear several times in the rendered HTML.
 
 Wherever possible, use the localized theme `strings` and `variables` that include labels or phrases.
 
