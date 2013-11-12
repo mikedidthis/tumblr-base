@@ -107,7 +107,6 @@
         </style>
     </head>
     <body>
-
     {block:IfEnableTwitterFeed}
     <script type="text/javascript">
         function recent_tweets(data) {
@@ -122,6 +121,7 @@
           document.getElementById("twitter").style.display = 'block';
         }
     </script>
+    <script type="text/javascript" src="/tweets.js"></script>
     {/block:IfEnableTwitterFeed}
     {block:IfGoogleAnalyticsID}
     <script type="text/javascript">
